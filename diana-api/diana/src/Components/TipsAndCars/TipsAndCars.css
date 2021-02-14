@@ -1,0 +1,20 @@
+.lineLoad {
+    display: inline-block;
+    animation: w100 1.5s ease forwards;
+}
+
+.lineLoad {
+    content: '';
+    display: block;
+    height: 2px;
+    background:#FFF;
+}
+
+.lineLoad .w100 {
+    width: 100%;
+}
+
+@keyframes w100 {
+    from { width: 0%; }
+    to { width: 100%; }
+}

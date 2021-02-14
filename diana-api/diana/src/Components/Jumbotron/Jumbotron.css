@@ -1,0 +1,107 @@
+.container {
+	height: 70vh;
+	padding-left: 14em;
+	display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.centerButton {
+	display: flex;
+	
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+	width: 90%;
+	height: 80vh;
+	padding-left: 1.8em !important;
+	margin-bottom: 5em !important;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.container {
+	  height: 90vh;
+	  width: 90%;
+	  }
+  }
+
+.container h1 {
+	font: 700 70px 'Dancing Script', cursive !important;
+	/* margin-top: -10px; */
+}
+
+@media only screen and (max-width: 800px) {
+  .container h1 {
+	font: 700 60px 'Dancing Script', cursive !important;
+	}
+}
+
+
+.animate {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+  }
+  
+  /*=== FADE IN  ===*/
+  @-webkit-keyframes fadeIn {
+	from {
+	  opacity: 0;
+	}
+  
+	to {
+	  opacity: 1;
+	}
+  }
+  @keyframes fadeIn {
+	from {
+	  opacity: 0;
+	}
+  
+	to {
+	  opacity: 1;
+	}
+  }
+  .fadeIn {
+	  -webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+  }
+  
+  .one {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  }
+  
+  .two {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+  }
+  
+  .three {
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+  }
+  
+  .four {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
+  }
+
+  .five {
+	-webkit-animation-delay: 2.5s;
+	-moz-animation-delay: 2.5s;
+	animation-delay: 2.5s;
+	}
+
+.six {
+	-webkit-animation-delay: 3s;
+	-moz-animation-delay: 3s;
+	animation-delay: 3s;
+	}

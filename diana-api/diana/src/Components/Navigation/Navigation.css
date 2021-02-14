@@ -1,0 +1,17 @@
+.menuLink {
+    display: inline-block;
+}
+
+.menuLink:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background:#c71585;
+    transition: width .3s;
+}
+
+.menuLink:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
